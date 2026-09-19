@@ -1,0 +1,25 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+.app {
+  width: 100%;
+  height: calc(100% - 40px);
+  margin: 0;
+}
+.layout {
+  width: 96%;
+  height: calc(96% - 43px);
+  margin: 20px auto;
+  border-bottom: 3px solid grey;
+}
+.menu {
+  width: calc(20% - 43px);
+  height: calc(84% - 42px);
+  border-right: 3px solid grey;
+  background-color: #CED7EF;
+  padding: 20px;
+  margin-top: 2px;
+  float: left;
+}
